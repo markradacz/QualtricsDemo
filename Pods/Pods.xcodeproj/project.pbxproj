@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8D6DEE42BCED4E4E87B25D7EA6833F5B /* Qualtrics */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A378D3926527D6192C44A24E96B9BD7F /* Build configuration list for PBXAggregateTarget "Qualtrics" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Qualtrics;
+			productName = Qualtrics;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D766CB8634D65571D6AE26C767606858 /* Pods-QualtricsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFF1871C26029C1FA038A29B6FB98AB /* Pods-QualtricsDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9023DACAE43519AD20426A562807B771 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6DEE42BCED4E4E87B25D7EA6833F5B;
+			remoteInfo = Qualtrics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		313479E3DD664EDF778E29CDF53CC9DF /* Pods-QualtricsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QualtricsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6D5CDCF5468E885D9F9F130DFB63F3A5 /* Qualtrics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Qualtrics.xcconfig; sourceTree = "<group>"; };
+		6DFF1871C26029C1FA038A29B6FB98AB /* Pods-QualtricsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QualtricsDemo-dummy.m"; sourceTree = "<group>"; };
+		76B8D9AB65511189063D418D19F8355D /* libPods-QualtricsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QualtricsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		813422664336E9148652B99C629E6047 /* Pods-QualtricsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QualtricsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B1FDE931CAC9258E66C005D26CD02B5 /* Pods-QualtricsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QualtricsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D68D6C6DDA81AE9F845B35B80A2D454 /* Pods-QualtricsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QualtricsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA88252D975525B7833336634137C7AD /* Pods-QualtricsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QualtricsDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C14BFD045FF7B2E469EA1829ED6E1979 /* Qualtrics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Qualtrics.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		794C6E5F7F35377E19AA2EB2216165EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A05C9F095A491CF777A0F2D829F9B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14BFD045FF7B2E469EA1829ED6E1979 /* Qualtrics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1648874E5EBF938F5E0381A18C2B748F /* Qualtrics */ = {
+			isa = PBXGroup;
+			children = (
+				07A05C9F095A491CF777A0F2D829F9B2 /* Frameworks */,
+				B6523BF11E463BEF8D86B80E6F982E01 /* Support Files */,
+			);
+			path = Qualtrics;
+			sourceTree = "<group>";
+		};
+		61053220041DC66364CF96DD1D5E619A /* Pods-QualtricsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				813422664336E9148652B99C629E6047 /* Pods-QualtricsDemo-acknowledgements.markdown */,
+				9D68D6C6DDA81AE9F845B35B80A2D454 /* Pods-QualtricsDemo-acknowledgements.plist */,
+				6DFF1871C26029C1FA038A29B6FB98AB /* Pods-QualtricsDemo-dummy.m */,
+				BA88252D975525B7833336634137C7AD /* Pods-QualtricsDemo-frameworks.sh */,
+				313479E3DD664EDF778E29CDF53CC9DF /* Pods-QualtricsDemo.debug.xcconfig */,
+				8B1FDE931CAC9258E66C005D26CD02B5 /* Pods-QualtricsDemo.release.xcconfig */,
+			);
+			name = "Pods-QualtricsDemo";
+			path = "Target Support Files/Pods-QualtricsDemo";
+			sourceTree = "<group>";
+		};
+		649A7CBD5A7E1E861AFAFF6806430CC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1648874E5EBF938F5E0381A18C2B748F /* Qualtrics */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF6DBA4EAAB0701F55B400A47C997664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B8D9AB65511189063D418D19F8355D /* libPods-QualtricsDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6523BF11E463BEF8D86B80E6F982E01 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D5CDCF5468E885D9F9F130DFB63F3A5 /* Qualtrics.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Qualtrics";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				649A7CBD5A7E1E861AFAFF6806430CC1 /* Pods */,
+				AF6DBA4EAAB0701F55B400A47C997664 /* Products */,
+				DCAC5FCFAA51B6C64F944387AD75EB87 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCAC5FCFAA51B6C64F944387AD75EB87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61053220041DC66364CF96DD1D5E619A /* Pods-QualtricsDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D54912CF690CFE6DCB1AF868237FAC1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2478F17144072B5830B75246846B19A2 /* Pods-QualtricsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9960A8070BE33B1A7088EC90E60ED46 /* Build configuration list for PBXNativeTarget "Pods-QualtricsDemo" */;
+			buildPhases = (
+				D54912CF690CFE6DCB1AF868237FAC1D /* Headers */,
+				9CE0EF1F62DBD034280B4C70B30D586D /* Sources */,
+				794C6E5F7F35377E19AA2EB2216165EA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A086DEDC7E5A2B2C9960C86CF1EC81B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-QualtricsDemo";
+			productName = "Pods-QualtricsDemo";
+			productReference = 76B8D9AB65511189063D418D19F8355D /* libPods-QualtricsDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF6DBA4EAAB0701F55B400A47C997664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2478F17144072B5830B75246846B19A2 /* Pods-QualtricsDemo */,
+				8D6DEE42BCED4E4E87B25D7EA6833F5B /* Qualtrics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CE0EF1F62DBD034280B4C70B30D586D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D766CB8634D65571D6AE26C767606858 /* Pods-QualtricsDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A086DEDC7E5A2B2C9960C86CF1EC81B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Qualtrics;
+			target = 8D6DEE42BCED4E4E87B25D7EA6833F5B /* Qualtrics */;
+			targetProxy = 9023DACAE43519AD20426A562807B771 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B07B1A5E9B6AC95D35A1E4E96D7EA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5CDCF5468E885D9F9F130DFB63F3A5 /* Qualtrics.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432201A7A7EFDCD1F09A29BFF9ADE62A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5CDCF5468E885D9F9F130DFB63F3A5 /* Qualtrics.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ABAF971192C8DECEEFA4E4229E4B7E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313479E3DD664EDF778E29CDF53CC9DF /* Pods-QualtricsDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF98E39027275762F5BFC1F406B8640F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1FDE931CAC9258E66C005D26CD02B5 /* Pods-QualtricsDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A378D3926527D6192C44A24E96B9BD7F /* Build configuration list for PBXAggregateTarget "Qualtrics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432201A7A7EFDCD1F09A29BFF9ADE62A /* Debug */,
+				1B07B1A5E9B6AC95D35A1E4E96D7EA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9960A8070BE33B1A7088EC90E60ED46 /* Build configuration list for PBXNativeTarget "Pods-QualtricsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABAF971192C8DECEEFA4E4229E4B7E55 /* Debug */,
+				CF98E39027275762F5BFC1F406B8640F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

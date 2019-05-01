@@ -1,0 +1,16 @@
+PODS:
+  - Qualtrics (1.8)
+
+DEPENDENCIES:
+  - Qualtrics
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Qualtrics
+
+SPEC CHECKSUMS:
+  Qualtrics: 7c71b79556eddd825efe50ef9fb4d75a44b1194c
+
+PODFILE CHECKSUM: 48c6fa09d5238d843268c114f420327d876b2199
+
+COCOAPODS: 1.6.1
